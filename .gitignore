@@ -13,7 +13,5 @@ html/*
 
 # Nginx config directory with your configs
 /config/nginx_hosts/*
-!/config/nginx_hosts/deafult
-!/config/nginx_hosts/deafult_location
-
-!*.gitkeep
+!/config/nginx_hosts/default
+!/config/nginx_hosts/default_location
