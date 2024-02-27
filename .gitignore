@@ -9,12 +9,10 @@ html/*
 
 # Nginx config directory with deafult.conf
 /config/nginx_common/*
-!/config/nginx_common/.gitkeep
-!/config/nginx_common/.additional.conf
+!/config/nginx_common/additional.conf
 
 # Nginx config directory with your configs
 /config/nginx_hosts/*
-!/config/nginx_hosts/.gitkeep
 !/config/nginx_hosts/deafult
 !/config/nginx_hosts/deafult_location
 
