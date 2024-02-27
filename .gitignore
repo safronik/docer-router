@@ -1,8 +1,6 @@
 .idea
 certs/*
-conf/*
 dhparam/*
 html/*
-vhost/*
-tmp/*
+
 !*.gitkeep
