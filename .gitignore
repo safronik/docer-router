@@ -8,14 +8,14 @@ dhparam/*
 html/*
 
 # Nginx config directory with deafult.conf
-/data/nginx_common/*
-!/data/nginx_common/.gitkeep
-!/data/nginx_common/.additional.conf
+/config/nginx_common/*
+!/config/nginx_common/.gitkeep
+!/config/nginx_common/.additional.conf
 
 # Nginx config directory with your configs
-/data/nginx_hosts/*
-!/data/nginx_hosts/.gitkeep
-!/data/nginx_hosts/deafult
-!/data/nginx_hosts/deafult_location
+/config/nginx_hosts/*
+!/config/nginx_hosts/.gitkeep
+!/config/nginx_hosts/deafult
+!/config/nginx_hosts/deafult_location
 
 !*.gitkeep
