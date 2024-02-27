@@ -4,6 +4,9 @@ services:
 
     # Reverse proxy server
     webserver:
+        build:
+            context: ./dockerfiles
+            dockerfile: nginx.dockerfile
         image: jwilder/nginx-proxy
         container_name: router-nginx
         ports:
